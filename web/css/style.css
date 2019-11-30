@@ -1,6 +1,8 @@
 body {
 	font-size: 16px;
 	color: #555;
+
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,4 +25,124 @@ a {
 a:hover, a:focus {
 	color: #7b7b7b;
 }
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+
+}
+
+.container--main {
+	display: flex;
+	justify-content: space-around;
+}
+
+.button {
+	background-color: #27ae60;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 8px;
+
+	display: inline-block;
+	text-decoration: none; /* убирать подчёркивание у ссылок */
+	user-select: none; /* убирать выделение текста */
+	padding: .7em 1.5em; /* отступ от текста */
+	outline: none; /* убирать контур в Mozilla */
+}
+
+
+/* Navbar */
+.navbar {
+	height: 70px;
+	margin-top: 30px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav_item {
+	max-width: 500px;
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.nav_text {
+	color: #27ae60;
+	text-decoration: none;
+}
+
+.nav_text:hover {
+	color: #219653;
+	cursor: pointer;
+}
+
+.button--nav {
+	height: 20px;
+}
+
+.button--nav:hover {
+	background-color: #219653;
+	color: #fff;
+}
+
+/* Main */
+.main {
+	display: flex;
+	justify-content: space-between;
+
+	margin-top: 30px;
+	margin-left: 100px;
+	margin-right: -150px;
+}
+
+.main_title {
+	max-width: 600px;
+
+	font-weight: 700;
+	font-size: 64px;
+	color: #0b2b0b;
+}
+
+.main_trash {
+	color: #27ae60;
+}
+
+.main_subtitle {
+	font-size: 22px;
+	margin-top: 10px;
+}
+
+.button--main {
+	margin-top: 30px;
+}
+
+.button--main:hover {
+	background-color: #219653;
+	color: #fff;
+}
+
+.main_img {
+	max-height: 300px;
+	width: auto;
+
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
