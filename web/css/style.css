@@ -1,0 +1,26 @@
+body {
+	font-size: 16px;
+	color: #555;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #333;
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.centered {
+	text-align: center;
+}
+
+a {
+	color: #f85c37;
+}
+
+a:hover, a:focus {
+	color: #7b7b7b;
+}
+
