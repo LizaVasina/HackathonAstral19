@@ -133,6 +133,55 @@ a:hover, a:focus {
 	margin-top: 30px;
 }
 
+/* Map */
+.map {
+	display: flex;
+	justify-content: space-between;
+
+	margin-top: 50px;
+}
+
+.map_img {
+	height: 250px;
+	width: auto;
+
+	border-radius: 8px;
+	margin-top: 30px;
+	margin-left: 250px;
+}
+
+.map_right {
+	max-width: 800px;
+
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.map_title {
+	max-width: 700px;
+
+	font-weight: 700;
+	font-size: 48px;
+	color: #0b2b0b;
+	text-align: right;
+
+	margin-right: -100px;
+	margin-top: 30px;
+}
+
+.map_subtitle {
+	text-align: right;
+	margin-right: -100px;
+
+	margin-top: 20px;
+}
+
+.button--map {
+	margin-top: 30px;
+	margin-left: 170px;
+	margin-bottom: 50px;
+}
+
 
 
 
