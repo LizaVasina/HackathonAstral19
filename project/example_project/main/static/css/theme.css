@@ -1,0 +1,72 @@
+html{
+  height: 100%;
+  overflow-y: scroll;
+}
+
+body{
+  height: 100%;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -80px;
+}
+
+.vertical-offset-100{
+  padding-top:100px;
+}
+
+.dropdown-menu.show {
+  left: auto;
+  right: 0;
+}
+
+.icon-size{
+  font-size: 87px;
+}
+
+#push{
+  height: 80px;
+}
+
+#footer p{
+  margin: 20px 0;
+}
+
+.d-inline-block{
+  color: green;
+}
+
+.forum-name-link{
+  color: #27ae60;
+}
+
+.fa-circle{
+  color: green;
+}
+
+.fas{
+  color: green;
+}
+
+a{
+  color: green;
+}
+
+.btn.btn-large.btn-primary{
+  background-color: #27ae60;
+  border-color: green;
+}
+
+.btn{
+  background-color: #27ae60;
+  border-color: green;  
+}
+
+.my-sm-0{
+  background-color:#004bff;
+}
